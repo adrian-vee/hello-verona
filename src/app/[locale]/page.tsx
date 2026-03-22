@@ -191,9 +191,9 @@ export default async function HomePage({ params: { locale } }: { params: { local
           <div className="hidden lg:flex justify-center items-center" data-reveal="scale" data-reveal-delay="200">
             <div className="relative">
               {/* Main card */}
-              <div className="w-80 bg-white rounded-3xl shadow-card-hover p-6 pb-14 border border-brand-border/60">
+              <div className="w-80 bg-white rounded-3xl shadow-card-hover p-5 pb-12 border border-brand-border/60">
                 {/* Image placeholder */}
-                <div className="bg-gradient-warm rounded-2xl aspect-[4/3] mb-5 flex items-center justify-center overflow-hidden relative">
+                <div className="bg-gradient-warm rounded-2xl aspect-[4/3] mb-4 flex items-center justify-center overflow-hidden relative">
                   <div className="blob w-48 h-48 bg-brand-secondary/25 top-0 right-0" />
                   <div className="text-center relative z-10">
                     <Image src="/images/logo.webp" alt="Hello Verona" width={56} height={56} className="mx-auto rounded-xl mb-2 ring-2 ring-brand-border" />
@@ -203,23 +203,24 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 </div>
 
                 {/* Quick stats */}
-                <div className="grid grid-cols-3 gap-2">
+                <div className="grid grid-cols-3 gap-1.5">
                   {[
                     { icon: Wifi,    label: "WiFi" },
                     { icon: MapPin,  label: isIt ? "3km centro" : "3km center" },
                     { icon: Star,    label: isIt ? "Top rated" : "Top rated" },
                   ].map(({ icon: Icon, label }) => (
-                    <div key={label} className="bg-brand-bg rounded-xl p-3 text-center">
-                      <Icon className="mx-auto text-brand-primary mb-1" size={16} />
-                      <p className="font-sans text-[0.65rem] text-brand-muted leading-tight">{label}</p>
+                    <div key={label} className="bg-brand-bg rounded-xl p-2.5 text-center">
+                      <Icon className="mx-auto text-brand-primary mb-0.5" size={15} />
+                      <p className="font-sans text-[0.62rem] text-brand-muted leading-tight">{label}</p>
                     </div>
                   ))}
                 </div>
 
                 {/* Price indicator */}
-                <div className="mt-4 pt-4 border-t border-brand-border/60 flex items-center justify-between">
-                  <span className="font-sans text-xs text-brand-muted">{isIt ? "a partire da" : "starting from"}</span>
-                  <span className="font-display font-semibold text-brand-gold text-lg">€65</span>
+                <div className="mt-3 pt-3 border-t border-brand-border/60 flex items-baseline gap-2">
+                  <span className="font-sans text-xs text-brand-muted">{isIt ? "a partire da" : "from"}</span>
+                  <span className="font-display font-semibold text-brand-gold text-xl">€65</span>
+                  <span className="font-sans text-xs text-brand-subtle">{isIt ? "/ notte" : "/ night"}</span>
                 </div>
               </div>
 

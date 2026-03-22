@@ -106,7 +106,6 @@ export default async function BlogPostPage({ params: { locale, slug } }: { param
               alt={isIt ? post.title_it : post.title_en}
               fill
               className="object-cover"
-              unoptimized
             />
           </div>
 

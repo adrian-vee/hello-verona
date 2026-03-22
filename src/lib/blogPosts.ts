@@ -24,7 +24,7 @@ export const blogPosts: BlogPost[] = [
     category_it: "Gastronomia",
     category_en: "Food & Drink",
     readTime: 5,
-    image: "https://loremflickr.com/1200/630/italian,food,restaurant,pasta",
+    image: "/images/blog/ristoranti-verona.jpg",
     content_it: `
 # I 10 Migliori Ristoranti Vicino alla Fiera di Verona
 
@@ -126,7 +126,7 @@ For the next trade fair edition, consider **Hello Verona**: our apartment is jus
     category_it: "Trasporti",
     category_en: "Transport",
     readTime: 6,
-    image: "https://loremflickr.com/1200/630/airport,terminal,travel,plane",
+    image: "/images/blog/aeroporto-verona.png",
     content_it: `
 # Come Arrivare a Verona dall'Aeroporto: Guida Completa
 
@@ -264,7 +264,7 @@ For groups or late arrivals, private transfer is the ideal solution.
     category_it: "Itinerari",
     category_en: "Itineraries",
     readTime: 7,
-    image: "https://loremflickr.com/1200/630/verona,italy,arena,romantic",
+    image: "/images/blog/verona-romantica.jpg",
     content_it: `
 # Weekend Romantico a Verona: Itinerario di 2 Giorni
 

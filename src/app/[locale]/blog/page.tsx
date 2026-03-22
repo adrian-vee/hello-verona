@@ -53,7 +53,7 @@ export default async function BlogPage({ params: { locale } }: { params: { local
                   alt={isIt ? blogPosts[0].title_it : blogPosts[0].title_en}
                   fill
                   className="object-cover"
-                  unoptimized
+
                 />
                 <div className="absolute inset-0 bg-brand-text/30" />
                 <div className="absolute inset-0 flex items-end p-6">
@@ -97,7 +97,7 @@ export default async function BlogPage({ params: { locale } }: { params: { local
                     alt={isIt ? post.title_it : post.title_en}
                     fill
                     className="object-cover"
-                    unoptimized
+  
                   />
                   <div className="absolute inset-0 bg-brand-text/20" />
                   <div className="absolute bottom-3 left-4">
