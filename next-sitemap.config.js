@@ -1,13 +1,13 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://helloverona.net",
+  siteUrl: "https://www.helloverona.net",
   generateRobotsTxt: false, // we have our own robots.txt
   changefreq: "weekly",
   priority: 0.7,
   sitemapSize: 5000,
   alternateRefs: [
-    { href: "https://helloverona.net/it", hreflang: "it" },
-    { href: "https://helloverona.net/en", hreflang: "en" },
+    { href: "https://www.helloverona.net/it", hreflang: "it" },
+    { href: "https://www.helloverona.net/en", hreflang: "en" },
   ],
   transform: async (config, path) => {
     const priorities = {
