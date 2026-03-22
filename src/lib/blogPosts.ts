@@ -20,11 +20,11 @@ export const blogPosts: BlogPost[] = [
     title_en: "The 10 Best Restaurants Near Verona Trade Fair",
     excerpt_it: "Partecipate a Vinitaly, Motor Bike Expo o Fieracavalli? Ecco dove mangiare bene vicino alla Fiera di Verona: dai ristoranti tipici alle osterie, tutti a pochi minuti dall'ingresso fieristico.",
     excerpt_en: "Attending Vinitaly, Motor Bike Expo or Fieracavalli? Here's where to eat well near Verona Trade Fair: from typical restaurants to osterias, all just minutes from the fair entrance.",
-    date: "2024-03-15",
+    date: "2026-03-15",
     category_it: "Gastronomia",
     category_en: "Food & Drink",
     readTime: 5,
-    image: "https://picsum.photos/seed/ristoranti-verona/1200/630",
+    image: "https://loremflickr.com/1200/630/italian,food,restaurant,pasta",
     content_it: `
 # I 10 Migliori Ristoranti Vicino alla Fiera di Verona
 
@@ -118,15 +118,15 @@ For the next trade fair edition, consider **Hello Verona**: our apartment is jus
   },
   {
     slug: "come-arrivare-verona-aeroporto",
-    title_it: "Come Arrivare a Verona dall'Aeroporto: Guida Completa 2024",
-    title_en: "How to Get to Verona from the Airport: Complete Guide 2024",
+    title_it: "Come Arrivare a Verona dall'Aeroporto: Guida Completa 2026",
+    title_en: "How to Get to Verona from the Airport: Complete Guide 2026",
     excerpt_it: "Appena atterrato a Verona Villafranca (VRN) e non sai come raggiungere il centro o il tuo alloggio? Ecco tutte le opzioni: taxi, bus, auto a noleggio, con prezzi e tempi aggiornati.",
     excerpt_en: "Just landed at Verona Villafranca (VRN) and don't know how to reach the center or your accommodation? Here are all the options: taxi, bus, car rental, with updated prices and times.",
-    date: "2024-02-20",
+    date: "2026-02-20",
     category_it: "Trasporti",
     category_en: "Transport",
     readTime: 6,
-    image: "https://picsum.photos/seed/aeroporto-verona/1200/630",
+    image: "https://loremflickr.com/1200/630/airport,terminal,travel,plane",
     content_it: `
 # Come Arrivare a Verona dall'Aeroporto: Guida Completa
 
@@ -186,7 +186,7 @@ Per gruppi o arrivi notturni, il transfer privato è la soluzione ideale.
 
 ## Dove Alloggiare Vicino all'Aeroporto di Verona?
 
-**Hello Verona** è a soli 12 km dall'aeroporto e si raggiunge in meno di 20 minuti in taxi. Con il parcheggio disponibile e le biciclette gratuite, è la scelta ideale per esplorare Verona.
+**Hello Verona** è a soli 12 km dall'aeroporto e si raggiunge in meno di 20 minuti in taxi. Con il parcheggio disponibile e il giardino privato, è la scelta ideale per esplorare Verona.
 
 [Contattaci su WhatsApp](https://wa.me/393936278663) per qualsiasi informazione sul soggiorno.
     `,
@@ -249,7 +249,7 @@ For groups or late arrivals, private transfer is the ideal solution.
 
 ## Where to Stay Near Verona Airport?
 
-**Hello Verona** is just 12 km from the airport and is reachable in less than 20 minutes by taxi. With parking available and free bicycles, it's the ideal choice for exploring Verona.
+**Hello Verona** is just 12 km from the airport and is reachable in less than 20 minutes by taxi. With parking available and a private garden, it's the ideal choice for exploring Verona.
 
 [Contact us on WhatsApp](https://wa.me/393936278663) for any information about your stay.
     `,
@@ -260,11 +260,11 @@ For groups or late arrivals, private transfer is the ideal solution.
     title_en: "Romantic Weekend in Verona: Perfect 2-Day Itinerary",
     excerpt_it: "Verona, la città di Romeo e Giulietta, è la meta perfetta per un weekend romantico. Ecco il nostro itinerario di 2 giorni con le tappe imperdibili, i migliori ristoranti e i momenti più suggestivi.",
     excerpt_en: "Verona, the city of Romeo and Juliet, is the perfect destination for a romantic weekend. Here is our 2-day itinerary with unmissable stops, best restaurants and most evocative moments.",
-    date: "2024-01-10",
+    date: "2026-01-10",
     category_it: "Itinerari",
     category_en: "Itineraries",
     readTime: 7,
-    image: "https://picsum.photos/seed/verona-romantica/1200/630",
+    image: "https://loremflickr.com/1200/630/verona,italy,arena,romantic",
     content_it: `
 # Weekend Romantico a Verona: Itinerario di 2 Giorni
 
@@ -306,7 +306,7 @@ Verona è sinonimo di romanticismo. La città di **Romeo e Giulietta** incanta c
 
 ## Dove Dormire per un Weekend Romantico a Verona
 
-**Hello Verona** è l'appartamento ideale per una coppia in cerca di romanticismo. Con 2 camere matrimoniali, giardino privato e biciclette gratuite per esplorare la città, è a soli 3 km da tutti i punti dell'itinerario.
+**Hello Verona** è l'alloggio ideale per una coppia in cerca di romanticismo. Con 2 camere matrimoniali e giardino privato, è a soli 3 km da tutti i punti dell'itinerario.
 
 [Contattaci su WhatsApp](https://wa.me/393936278663) per informazioni e disponibilità.
     `,
@@ -351,7 +351,7 @@ Verona is synonymous with romance. The city of **Romeo and Juliet** enchants wit
 
 ## Where to Stay for a Romantic Weekend in Verona
 
-**Hello Verona** is the ideal apartment for a couple looking for romance. With 2 double bedrooms, a private garden and free bicycles to explore the city, it's just 3 km from all the points of the itinerary.
+**Hello Verona** is the ideal accommodation for a couple looking for romance. With 2 double bedrooms and a private garden, it's just 3 km from all the points of the itinerary.
 
 [Contact us on WhatsApp](https://wa.me/393936278663) for information and availability.
     `,

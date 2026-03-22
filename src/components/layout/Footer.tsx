@@ -58,8 +58,6 @@ export default function Footer({ locale }: { locale: string }) {
               </div>
             </div>
 
-            {/* CIN */}
-            <p className="font-sans text-xs text-white/30 mt-5">CIN: IT023091C2AQLUZ3EW</p>
           </div>
 
           {/* Quick links */}
@@ -110,8 +108,15 @@ export default function Footer({ locale }: { locale: string }) {
           </div>
         </div>
 
+        {/* CIN — centered, prominent */}
+        <div className="mt-12 pt-6 border-t border-white/10 text-center">
+          <p className="font-sans text-sm font-bold text-white/60 tracking-wider">
+            CIN: IT023091C2AQLUZ3EW
+          </p>
+        </div>
+
         {/* Bottom bar */}
-        <div className="mt-16 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-6 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-sans text-xs text-white/40">{t("rights")}</p>
           <div className="flex items-center gap-5">
             <Link href={`/${locale}/privacy-policy`} className="font-sans text-xs text-white/40 hover:text-white/70 transition-colors duration-200 cursor-pointer">

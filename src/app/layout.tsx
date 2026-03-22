@@ -22,7 +22,10 @@ export const metadata: Metadata = {
   title: "Hello Verona – Appartamento Turistico a Verona",
   description:
     "Appartamento turistico accogliente a Verona, vicino alla Fiera e all'Arena. Prenota il tuo soggiorno nella città di Romeo e Giulietta.",
-  icons: { icon: "/images/logo.webp" },
+  icons: {
+    icon: [{ url: "/images/logo.webp", type: "image/webp" }],
+    apple: [{ url: "/images/logo.webp", type: "image/webp" }],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

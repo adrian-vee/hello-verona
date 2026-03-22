@@ -16,8 +16,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       ? "Hello Verona – Appartamento Turistico Verona | Vicino Fiera e Arena"
       : "Hello Verona – Tourist Apartment Verona | Near Arena & Trade Fair",
     description: isIt
-      ? "Appartamento vacanze a Verona Borgo Roma. 3 km dall'Arena, 1 km dalla Fiera di Verona. WiFi gratuito, 2 camere matrimoniali, giardino, biciclette. Prenota ora!"
-      : "Holiday apartment in Verona Borgo Roma. 3 km from the Arena, 1 km from Verona Trade Fair. Free WiFi, 2 double bedrooms, garden, bicycles. Book now!",
+      ? "Alloggio a Verona Borgo Roma. 3 km dall'Arena, 1 km dalla Fiera di Verona. WiFi gratuito, 2 camere matrimoniali, giardino privato. Prenota ora!"
+      : "Accommodation in Verona Borgo Roma. 3 km from the Arena, 1 km from Verona Trade Fair. Free WiFi, 2 double bedrooms, private garden. Book now!",
     alternates: {
       canonical: `https://helloverona.net/${locale}`,
       languages: { it: "https://helloverona.net/it", en: "https://helloverona.net/en" },
@@ -54,8 +54,8 @@ const features = [
     icon: Wifi,
     title_it: "Comfort Completo",
     title_en: "Full Comfort",
-    desc_it:  "WiFi gratuito, 2 camere matrimoniali, giardino privato, biciclette gratuite e parcheggio.",
-    desc_en:  "Free WiFi, 2 double bedrooms, private garden, free bicycles and parking.",
+    desc_it:  "WiFi gratuito, 2 camere matrimoniali, giardino privato e parcheggio.",
+    desc_en:  "Free WiFi, 2 double bedrooms, private garden and parking.",
   },
   {
     icon: Heart,
@@ -191,7 +191,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
           <div className="hidden lg:flex justify-center items-center" data-reveal="scale" data-reveal-delay="200">
             <div className="relative">
               {/* Main card */}
-              <div className="w-80 bg-white rounded-3xl shadow-card-hover p-6 border border-brand-border/60">
+              <div className="w-80 bg-white rounded-3xl shadow-card-hover p-6 pb-14 border border-brand-border/60">
                 {/* Image placeholder */}
                 <div className="bg-gradient-warm rounded-2xl aspect-[4/3] mb-5 flex items-center justify-center overflow-hidden relative">
                   <div className="blob w-48 h-48 bg-brand-secondary/25 top-0 right-0" />
@@ -219,7 +219,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 {/* Price indicator */}
                 <div className="mt-4 pt-4 border-t border-brand-border/60 flex items-center justify-between">
                   <span className="font-sans text-xs text-brand-muted">{isIt ? "a partire da" : "starting from"}</span>
-                  <span className="font-display font-semibold text-brand-gold text-lg">€ ––</span>
+                  <span className="font-display font-semibold text-brand-gold text-lg">€65</span>
                 </div>
               </div>
 

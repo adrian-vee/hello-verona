@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
-import { Wifi, Wind, UtensilsCrossed, Car, Tv, WashingMachine, Thermometer, Bed, MessageCircle, Leaf, Bike } from "lucide-react";
+import { Wifi, Wind, UtensilsCrossed, Car, Tv, WashingMachine, Thermometer, Bed, MessageCircle, Leaf } from "lucide-react";
 import SmoobuWidget from "@/components/ui/SmoobuWidget";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import JsonLd from "@/components/ui/JsonLd";
@@ -8,10 +8,10 @@ import JsonLd from "@/components/ui/JsonLd";
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const isIt = locale === "it";
   return {
-    title: isIt ? "Alloggi & Appartamenti – Hello Verona | Prenota Online" : "Apartments – Hello Verona | Book Online",
+    title: isIt ? "I Nostri Alloggi – Hello Verona | Prenota Online" : "Our Accommodation – Hello Verona | Book Online",
     description: isIt
-      ? "Appartamento a Verona Borgo Roma: 2 camere matrimoniali, giardino privato, biciclette gratuite, WiFi, parcheggio. A 1 km dalla Fiera. Prenota direttamente!"
-      : "Apartment in Verona Borgo Roma: 2 double bedrooms, private garden, free bicycles, WiFi, parking. 1 km from the Trade Fair. Book directly!",
+      ? "Alloggio a Verona Borgo Roma: 2 camere matrimoniali, giardino privato, WiFi, parcheggio. A 1 km dalla Fiera. Prenota direttamente!"
+      : "Accommodation in Verona Borgo Roma: 2 double bedrooms, private garden, WiFi, parking. 1 km from the Trade Fair. Book directly!",
     alternates: {
       canonical: `https://helloverona.net/${locale}/apartments`,
       languages: { it: "https://helloverona.net/it/apartments", en: "https://helloverona.net/en/apartments" },
@@ -25,7 +25,6 @@ const amenities = [
   { key: "kitchen",  icon: UtensilsCrossed, color: "bg-orange-50 text-orange-600" },
   { key: "parking",  icon: Car,             color: "bg-emerald-50 text-emerald-600" },
   { key: "garden",   icon: Leaf,            color: "bg-green-50 text-green-600" },
-  { key: "bicycle",  icon: Bike,            color: "bg-teal-50 text-teal-600" },
   { key: "tv",       icon: Tv,              color: "bg-purple-50 text-purple-600" },
   { key: "washing",  icon: WashingMachine,  color: "bg-cyan-50 text-cyan-600" },
   { key: "heating",  icon: Thermometer,     color: "bg-red-50 text-red-600" },
@@ -41,8 +40,8 @@ export default async function ApartmentsPage({ params: { locale } }: { params: {
     "@type": "Apartment",
     name: "Hello Verona Apartment",
     description: isIt
-      ? "Appartamento turistico a Verona Borgo Roma: 2 camere matrimoniali, giardino privato, biciclette gratuite, WiFi, cucina attrezzata e parcheggio"
-      : "Tourist apartment in Verona Borgo Roma: 2 double bedrooms, private garden, free bicycles, WiFi, equipped kitchen and parking",
+      ? "Alloggio turistico a Verona Borgo Roma: 2 camere matrimoniali, giardino privato, WiFi, cucina attrezzata e parcheggio"
+      : "Tourist accommodation in Verona Borgo Roma: 2 double bedrooms, private garden, WiFi, equipped kitchen and parking",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Via Campagnol di Tombetta 65",
@@ -58,7 +57,6 @@ export default async function ApartmentsPage({ params: { locale } }: { params: {
       { "@type": "LocationFeatureSpecification", name: "Kitchen", value: true },
       { "@type": "LocationFeatureSpecification", name: "Parking", value: true },
       { "@type": "LocationFeatureSpecification", name: "Garden", value: true },
-      { "@type": "LocationFeatureSpecification", name: "Bicycles", value: true },
     ],
   };
 
@@ -165,7 +163,7 @@ export default async function ApartmentsPage({ params: { locale } }: { params: {
       <section className="py-16 bg-brand-text">
         <div className="container-narrow text-center" data-reveal>
           <h2 className="font-display text-2xl font-semibold text-white mb-4">
-            {isIt ? "Hai domande sull'appartamento?" : "Questions about the apartment?"}
+            {isIt ? "Hai domande sui nostri alloggi?" : "Questions about our accommodation?"}
           </h2>
           <p className="font-sans text-white/60 mb-8">
             {isIt ? "Scrivici su WhatsApp o via email — rispondiamo in poche ore." : "Message us on WhatsApp or email — we reply within hours."}

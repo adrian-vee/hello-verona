@@ -125,8 +125,8 @@ export default async function BlogPostPage({ params: { locale, slug } }: { param
             </h3>
             <p className="body-text mb-6 max-w-sm mx-auto">
               {isIt
-                ? "Appartamento con 2 camere matrimoniali, giardino privato, biciclette gratuite a 3 km dal centro."
-                : "Apartment with 2 double bedrooms, private garden, free bicycles, 3 km from the center."}
+                ? "Alloggio con 2 camere matrimoniali e giardino privato, a 3 km dal centro."
+                : "Accommodation with 2 double bedrooms and private garden, 3 km from the center."}
             </p>
             <Link href={`/${locale}/apartments`} className="btn-primary">
               {isIt ? "Prenota Direttamente" : "Book Directly"}

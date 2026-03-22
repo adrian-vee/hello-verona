@@ -20,7 +20,7 @@
     "features": {
       "title": "Why Choose Hello Verona",
       "location": { "title": "Strategic Location", "desc": "3 km from the center, 1 km from Verona Trade Fair and close to all major points of interest" },
-      "comfort": { "title": "Full Comfort", "desc": "Free WiFi, air conditioning, equipped kitchen, parking and free bicycles" },
+      "comfort": { "title": "Full Comfort", "desc": "Free WiFi, air conditioning, equipped kitchen and parking" },
       "love": { "title": "City of Love", "desc": "Discover Verona of Romeo and Juliet, the Arena and Valpolicella wines" },
       "value": { "title": "Great Value for Money", "desc": "Competitive prices with all home comforts for an unforgettable stay" }
     },
@@ -52,8 +52,8 @@
   },
   "apartments": {
     "hero": {
-      "title": "Our Apartment",
-      "subtitle": "2 double bedrooms, private garden, free bicycles — all the comfort for a perfect stay in Verona"
+      "title": "Our Accommodation",
+      "subtitle": "2 double bedrooms, private garden — all the comfort for a perfect stay in Verona"
     },
     "amenities": {
       "title": "Amenities & Services",
@@ -65,8 +65,7 @@
       "washing": "Washing Machine",
       "heating": "Heating",
       "towels": "Linen Included",
-      "garden": "Private Garden",
-      "bicycle": "Free Bicycles"
+      "garden": "Private Garden"
     },
     "booking": {
       "title": "Book Directly",

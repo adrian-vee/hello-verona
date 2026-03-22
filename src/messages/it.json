@@ -20,7 +20,7 @@
     "features": {
       "title": "Perché scegliere Hello Verona",
       "location": { "title": "Posizione Strategica", "desc": "A 3 km dal centro, 1 km dalla Fiera di Verona e vicino a tutti i principali punti di interesse" },
-      "comfort": { "title": "Comfort Completo", "desc": "WiFi gratuito, aria condizionata, cucina attrezzata, parcheggio e biciclette gratuite" },
+      "comfort": { "title": "Comfort Completo", "desc": "WiFi gratuito, aria condizionata, cucina attrezzata e parcheggio" },
       "love": { "title": "Città dell'Amore", "desc": "Scopri la Verona di Romeo e Giulietta, dell'Arena e dei vini Valpolicella" },
       "value": { "title": "Ottimo Rapporto Qualità/Prezzo", "desc": "Prezzi competitivi con tutti i comfort di casa per un soggiorno indimenticabile" }
     },
@@ -52,8 +52,8 @@
   },
   "apartments": {
     "hero": {
-      "title": "Il Nostro Appartamento",
-      "subtitle": "2 camere matrimoniali, giardino privato, biciclette gratuite — tutto il comfort per un soggiorno perfetto a Verona"
+      "title": "I Nostri Alloggi",
+      "subtitle": "2 camere matrimoniali, giardino privato — tutto il comfort per un soggiorno perfetto a Verona"
     },
     "amenities": {
       "title": "Comfort e Servizi",
@@ -65,8 +65,7 @@
       "washing": "Lavatrice",
       "heating": "Riscaldamento",
       "towels": "Biancheria Inclusa",
-      "garden": "Giardino Privato",
-      "bicycle": "Biciclette Gratuite"
+      "garden": "Giardino Privato"
     },
     "booking": {
       "title": "Prenota Direttamente",
