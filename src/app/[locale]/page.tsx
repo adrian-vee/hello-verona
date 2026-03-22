@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import {
-  MapPin, Wifi, Star, Heart, Users, Clock,
+  MapPin, Wifi, Star, Heart, Users, Bed,
   ExternalLink, MessageCircle, ChevronRight,
   Plane, ArrowRight,
 } from "lucide-react";
@@ -185,61 +185,107 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 {isIt ? "Eccellente su Booking.com" : "Excellent on Booking.com"}
               </span>
             </div>
+
+            {/* Mobile property strip — hidden on lg+ */}
+            <div className="lg:hidden mt-8 flex items-center gap-3 bg-white rounded-2xl border border-brand-border/60 shadow-card p-3.5" data-reveal data-reveal-delay="500">
+              <Image src="/images/logo.webp" alt="Hello Verona" width={40} height={40} className="rounded-xl shrink-0 ring-1 ring-brand-border" />
+              <div className="flex-1 min-w-0">
+                <p className="font-display font-semibold text-brand-text text-sm leading-tight">Hello Verona</p>
+                <p className="font-sans text-[0.7rem] text-brand-muted mt-0.5 truncate">
+                  Borgo Roma · 2 {isIt ? "camere" : "rooms"} · 1 km {isIt ? "dalla Fiera" : "from Fair"}
+                </p>
+              </div>
+              <div className="flex items-center gap-1 shrink-0 bg-amber-50 border border-amber-100 rounded-lg px-2 py-1">
+                <Star size={9} className="text-amber-400 fill-amber-400" />
+                <span className="font-sans text-xs font-bold text-brand-text">9.2</span>
+              </div>
+              <div className="text-right shrink-0">
+                <p className="font-display font-bold text-brand-gold text-lg leading-none">€65</p>
+                <p className="font-sans text-[0.58rem] text-brand-subtle leading-tight">{isIt ? "/notte" : "/night"}</p>
+              </div>
+            </div>
           </div>
 
-          {/* Right: Floating card */}
-          <div className="hidden lg:flex justify-center items-center" data-reveal="scale" data-reveal-delay="200">
-            <div className="relative">
-              {/* Main card */}
-              <div className="w-80 bg-white rounded-3xl shadow-card-hover p-5 pb-12 border border-brand-border/60">
-                {/* Image placeholder */}
-                <div className="bg-gradient-warm rounded-2xl aspect-[4/3] mb-4 flex items-center justify-center overflow-hidden relative">
-                  <div className="blob w-48 h-48 bg-brand-secondary/25 top-0 right-0" />
-                  <div className="text-center relative z-10">
-                    <Image src="/images/logo.webp" alt="Hello Verona" width={56} height={56} className="mx-auto rounded-xl mb-2 ring-2 ring-brand-border" />
-                    <p className="font-display font-semibold text-brand-text">Hello Verona</p>
-                    <p className="font-sans text-sm text-brand-muted">Borgo Roma, Verona</p>
+          {/* Right: Property card — desktop only */}
+          <div className="hidden lg:flex justify-center items-end pb-4" data-reveal="scale" data-reveal-delay="200">
+            <div className="animate-float">
+              <div
+                className="w-[280px] bg-white rounded-2xl border border-brand-border/60 overflow-hidden"
+                style={{ boxShadow: "0 24px 64px rgba(45,41,38,0.14), 0 4px 16px rgba(45,41,38,0.07)" }}
+              >
+                {/* ── Hero header ── */}
+                <div className="relative h-[128px] bg-gradient-warm overflow-hidden">
+                  <div className="blob w-40 h-40 bg-brand-secondary/35 -top-6 -right-6" />
+                  <div className="blob w-28 h-28 bg-brand-primary/20 bottom-0 left-6" />
+
+                  {/* Property identity */}
+                  <div className="absolute inset-0 flex items-center px-4 gap-3">
+                    <Image
+                      src="/images/logo.webp"
+                      alt="Hello Verona"
+                      width={48}
+                      height={48}
+                      className="rounded-xl shrink-0 ring-2 ring-white/80 shadow-sm"
+                    />
+                    <div>
+                      <p className="font-display font-semibold text-brand-text text-[0.95rem] leading-tight">
+                        Hello Verona
+                      </p>
+                      <div className="flex items-center gap-1 mt-0.5">
+                        <MapPin size={9} className="text-brand-primary shrink-0" />
+                        <p className="font-sans text-[0.66rem] text-brand-muted leading-none">
+                          Borgo Roma, Verona
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Rating chip */}
+                  <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-sm rounded-lg px-2 py-1.5 shadow-sm border border-brand-border/40 flex flex-col items-center gap-0.5">
+                    <div className="flex items-center gap-0.5">
+                      <Star size={9} className="text-amber-400 fill-amber-400" />
+                      <span className="font-sans text-[0.72rem] font-extrabold text-brand-text leading-none">9.2</span>
+                    </div>
+                    <p className="font-sans text-[0.5rem] text-brand-subtle leading-none tracking-tight">Booking.com</p>
                   </div>
                 </div>
 
-                {/* Quick stats */}
-                <div className="grid grid-cols-3 gap-1.5">
-                  {[
-                    { icon: Wifi,    label: "WiFi" },
-                    { icon: MapPin,  label: isIt ? "3km centro" : "3km center" },
-                    { icon: Star,    label: isIt ? "Top rated" : "Top rated" },
-                  ].map(({ icon: Icon, label }) => (
-                    <div key={label} className="bg-brand-bg rounded-xl p-2.5 text-center">
-                      <Icon className="mx-auto text-brand-primary mb-0.5" size={15} />
-                      <p className="font-sans text-[0.62rem] text-brand-muted leading-tight">{label}</p>
+                {/* ── Body ── */}
+                <div className="p-4">
+
+                  {/* Specs row */}
+                  <div className="flex divide-x divide-brand-border/60 border border-brand-border/60 rounded-xl overflow-hidden mb-4">
+                    {[
+                      { icon: Bed,   top: "2",                         btm: isIt ? "camere" : "rooms"  },
+                      { icon: Users, top: isIt ? "fino a 4" : "up to 4", btm: isIt ? "ospiti" : "guests" },
+                      { icon: Wifi,  top: "WiFi",                      btm: isIt ? "gratuito" : "free" },
+                    ].map(({ icon: Icon, top, btm }) => (
+                      <div key={btm} className="flex-1 flex flex-col items-center justify-center py-3 gap-1">
+                        <Icon size={12} className="text-brand-primary" />
+                        <p className="font-sans text-[0.67rem] font-semibold text-brand-text leading-none">{top}</p>
+                        <p className="font-sans text-[0.54rem] text-brand-subtle leading-none">{btm}</p>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Price + CTA */}
+                  <div className="flex items-center justify-between pt-3.5 border-t border-brand-border/40">
+                    <div>
+                      <p className="font-sans text-[0.55rem] uppercase tracking-widest text-brand-subtle mb-1">
+                        {isIt ? "a partire da" : "from"}
+                      </p>
+                      <div className="flex items-baseline gap-1">
+                        <span className="font-display font-bold text-brand-gold text-[1.8rem] leading-none">€65</span>
+                        <span className="font-sans text-[0.6rem] text-brand-subtle">{isIt ? "/notte" : "/night"}</span>
+                      </div>
                     </div>
-                  ))}
-                </div>
-
-                {/* Price indicator */}
-                <div className="mt-3 pt-3 border-t border-brand-border/60 flex items-baseline gap-2">
-                  <span className="font-sans text-xs text-brand-muted">{isIt ? "a partire da" : "from"}</span>
-                  <span className="font-display font-semibold text-brand-gold text-xl">€65</span>
-                  <span className="font-sans text-xs text-brand-subtle">{isIt ? "/ notte" : "/ night"}</span>
-                </div>
-              </div>
-
-              {/* Floating badge */}
-              <div className="absolute -top-4 -right-4 bg-brand-gold text-white rounded-2xl px-4 py-2 shadow-glow animate-float">
-                <div className="flex items-center gap-1.5">
-                  <Star size={13} className="fill-white" />
-                  <span className="font-sans text-sm font-bold">9.2</span>
-                </div>
-                <p className="font-sans text-[0.6rem] text-white/80">{isIt ? "Booking.com" : "Booking.com"}</p>
-              </div>
-
-              {/* Location badge */}
-              <div className="absolute -bottom-4 -left-4 glass rounded-2xl px-4 py-2.5 shadow-card border border-brand-border/50">
-                <div className="flex items-center gap-2">
-                  <MapPin size={14} className="text-brand-primary shrink-0" />
-                  <div>
-                    <p className="font-sans text-xs font-semibold text-brand-text leading-tight">Verona</p>
-                    <p className="font-sans text-[0.62rem] text-brand-muted">Borgo Roma</p>
+                    <Link
+                      href={`/${locale}/apartments`}
+                      className="btn-primary text-[0.78rem] py-2.5 px-4 gap-1.5 rounded-xl"
+                    >
+                      {isIt ? "Prenota" : "Book"}
+                      <ArrowRight size={12} />
+                    </Link>
                   </div>
                 </div>
               </div>
