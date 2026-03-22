@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "home": "Home",
+    "apartments": "Alloggi",
+    "location": "Posizione",
+    "guide": "Guida Verona",
+    "faq": "FAQ",
+    "contact": "Contatti",
+    "blog": "Blog",
+    "bookNow": "Prenota Ora"
+  },
+  "home": {
+    "hero": {
+      "badge": "La tua casa a Verona",
+      "title": "Vivi Verona come un abitante del posto",
+      "subtitle": "Appartamento turistico accogliente nel cuore di Verona, a 1 km dalla Fiera e 3 km dalle attrazioni più belle della città dell'amore",
+      "cta1": "Controlla Disponibilità",
+      "cta2": "Contattaci su WhatsApp"
+    },
+    "features": {
+      "title": "Perché scegliere Hello Verona",
+      "location": { "title": "Posizione Strategica", "desc": "A 3 km dal centro, 1 km dalla Fiera di Verona e vicino a tutti i principali punti di interesse" },
+      "comfort": { "title": "Comfort Completo", "desc": "WiFi gratuito, aria condizionata, cucina attrezzata, parcheggio e biciclette gratuite" },
+      "love": { "title": "Città dell'Amore", "desc": "Scopri la Verona di Romeo e Giulietta, dell'Arena e dei vini Valpolicella" },
+      "value": { "title": "Ottimo Rapporto Qualità/Prezzo", "desc": "Prezzi competitivi con tutti i comfort di casa per un soggiorno indimenticabile" }
+    },
+    "attractions": {
+      "title": "Tutto a Portata di Mano",
+      "subtitle": "Da Hello Verona raggiungi facilmente le attrazioni più belle della città",
+      "arena": "Arena di Verona",
+      "juliet": "Casa di Giulietta",
+      "piazza": "Piazza Bra",
+      "fiera": "Fiera di Verona",
+      "garda": "Lago di Garda",
+      "airport": "Aeroporto VRN"
+    },
+    "testimonials": {
+      "title": "Cosa dicono i nostri ospiti",
+      "subtitle": "Leggi le recensioni su Booking.com",
+      "viewAll": "Vedi tutte le recensioni"
+    },
+    "cta": {
+      "title": "Pronto per il tuo soggiorno a Verona?",
+      "subtitle": "Prenota direttamente il tuo appartamento e vivi l'esperienza autentica della città di Romeo e Giulietta",
+      "booking": "Controlla Disponibilità",
+      "whatsapp": "Scrivici su WhatsApp"
+    },
+    "faqPreview": {
+      "title": "Domande Frequenti",
+      "viewAll": "Vedi tutte le FAQ"
+    }
+  },
+  "apartments": {
+    "hero": {
+      "title": "Il Nostro Appartamento",
+      "subtitle": "2 camere matrimoniali, giardino privato, biciclette gratuite — tutto il comfort per un soggiorno perfetto a Verona"
+    },
+    "amenities": {
+      "title": "Comfort e Servizi",
+      "wifi": "WiFi Gratuito",
+      "ac": "Aria Condizionata",
+      "kitchen": "Cucina Attrezzata",
+      "parking": "Parcheggio",
+      "tv": "Smart TV",
+      "washing": "Lavatrice",
+      "heating": "Riscaldamento",
+      "towels": "Biancheria Inclusa",
+      "garden": "Giardino Privato",
+      "bicycle": "Biciclette Gratuite"
+    },
+    "booking": {
+      "title": "Prenota Direttamente",
+      "subtitle": "Controlla le date disponibili e prenota il tuo soggiorno senza intermediari",
+      "cta": "Verifica Disponibilità",
+      "widget": "Widget Smoobu - Inserire qui il codice embed"
+    }
+  },
+  "location": {
+    "hero": {
+      "title": "Dove Siamo",
+      "subtitle": "In Borgo Roma, quartiere tranquillo di Verona, a 1 minuto a piedi dalla fermata dell'autobus e ottimi collegamenti verso il centro"
+    },
+    "distances": {
+      "title": "Distanze dai Principali Punti di Interesse",
+      "subtitle": "Hello Verona è strategicamente posizionato per raggiungere tutto comodamente"
+    },
+    "howToReach": {
+      "title": "Come Raggiungerci",
+      "car": "In Auto",
+      "train": "In Treno",
+      "airport": "Dall'Aeroporto",
+      "bus": "In Autobus"
+    },
+    "map": {
+      "title": "La Nostra Posizione",
+      "address": "Via Campagnol di Tombetta 65, 37134 Verona"
+    }
+  },
+  "guide": {
+    "hero": {
+      "title": "Guida di Verona",
+      "subtitle": "Tutto quello che devi sapere per vivere Verona al meglio"
+    },
+    "sections": {
+      "seeTitle": "Cosa Vedere a Verona",
+      "eatTitle": "Dove Mangiare a Verona",
+      "eventsTitle": "Eventi a Verona",
+      "kidsTitle": "Verona con i Bambini",
+      "tripsTitle": "Gite da Verona"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Domande Frequenti",
+      "subtitle": "Tutto quello che vuoi sapere prima di prenotare"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contattaci",
+      "subtitle": "Siamo qui per aiutarti a pianificare il tuo soggiorno perfetto a Verona"
+    },
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Telefono (opzionale)",
+      "checkin": "Data Arrivo",
+      "checkout": "Data Partenza",
+      "message": "Messaggio",
+      "submit": "Invia Messaggio",
+      "success": "Messaggio inviato con successo!",
+      "namePlaceholder": "Il tuo nome",
+      "emailPlaceholder": "la-tua@email.com",
+      "messagePlaceholder": "Descrivi il tuo soggiorno ideale..."
+    },
+    "info": {
+      "title": "Informazioni di Contatto",
+      "email": "Email",
+      "phone": "Telefono / WhatsApp",
+      "address": "Indirizzo",
+      "hours": "Orari di Risposta",
+      "hoursValue": "Tutti i giorni 9:00 - 21:00"
+    },
+    "whatsapp": "Chatta su WhatsApp"
+  },
+  "blog": {
+    "hero": {
+      "title": "Blog & Diario di Viaggio",
+      "subtitle": "Consigli, guide e ispirazione per il tuo soggiorno a Verona"
+    },
+    "readMore": "Leggi di più",
+    "backToBlog": "Torna al Blog"
+  },
+  "footer": {
+    "description": "Il tuo appartamento turistico accogliente nel cuore di Verona. Vicino alla Fiera, all'Arena e alle meraviglie della città di Romeo e Giulietta.",
+    "quickLinks": "Link Rapidi",
+    "bookDirect": "Prenota Diretto",
+    "reviewsBooking": "Recensioni Booking.com",
+    "contact": "Contatti",
+    "followUs": "Seguici",
+    "rights": "© 2026 Hello Verona. Tutti i diritti riservati.",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "terms": "Termini di Servizio"
+  },
+  "common": {
+    "bookNow": "Prenota Ora",
+    "learnMore": "Scopri di più",
+    "contactUs": "Contattaci",
+    "whatsapp": "WhatsApp",
+    "viewOnMap": "Vedi sulla Mappa",
+    "km": "km dal centro",
+    "minutes": "minuti"
+  }
+}

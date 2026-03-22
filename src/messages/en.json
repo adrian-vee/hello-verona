@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "home": "Home",
+    "apartments": "Apartments",
+    "location": "Location",
+    "guide": "Verona Guide",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "blog": "Blog",
+    "bookNow": "Book Now"
+  },
+  "home": {
+    "hero": {
+      "badge": "Your home in Verona",
+      "title": "Experience Verona like a local",
+      "subtitle": "Comfortable tourist apartment in the heart of Verona, 1 km from the Trade Fair and 3 km from the most beautiful attractions of the city of love",
+      "cta1": "Check Availability",
+      "cta2": "Contact us on WhatsApp"
+    },
+    "features": {
+      "title": "Why Choose Hello Verona",
+      "location": { "title": "Strategic Location", "desc": "3 km from the center, 1 km from Verona Trade Fair and close to all major points of interest" },
+      "comfort": { "title": "Full Comfort", "desc": "Free WiFi, air conditioning, equipped kitchen, parking and free bicycles" },
+      "love": { "title": "City of Love", "desc": "Discover Verona of Romeo and Juliet, the Arena and Valpolicella wines" },
+      "value": { "title": "Great Value for Money", "desc": "Competitive prices with all home comforts for an unforgettable stay" }
+    },
+    "attractions": {
+      "title": "Everything Within Reach",
+      "subtitle": "From Hello Verona you can easily reach the city's most beautiful attractions",
+      "arena": "Verona Arena",
+      "juliet": "Juliet's House",
+      "piazza": "Piazza Bra",
+      "fiera": "Verona Trade Fair",
+      "garda": "Lake Garda",
+      "airport": "VRN Airport"
+    },
+    "testimonials": {
+      "title": "What Our Guests Say",
+      "subtitle": "Read reviews on Booking.com",
+      "viewAll": "View all reviews"
+    },
+    "cta": {
+      "title": "Ready for your stay in Verona?",
+      "subtitle": "Book your apartment directly and live the authentic experience of the city of Romeo and Juliet",
+      "booking": "Check Availability",
+      "whatsapp": "Message us on WhatsApp"
+    },
+    "faqPreview": {
+      "title": "Frequently Asked Questions",
+      "viewAll": "View all FAQs"
+    }
+  },
+  "apartments": {
+    "hero": {
+      "title": "Our Apartment",
+      "subtitle": "2 double bedrooms, private garden, free bicycles — all the comfort for a perfect stay in Verona"
+    },
+    "amenities": {
+      "title": "Amenities & Services",
+      "wifi": "Free WiFi",
+      "ac": "Air Conditioning",
+      "kitchen": "Fully Equipped Kitchen",
+      "parking": "Parking",
+      "tv": "Smart TV",
+      "washing": "Washing Machine",
+      "heating": "Heating",
+      "towels": "Linen Included",
+      "garden": "Private Garden",
+      "bicycle": "Free Bicycles"
+    },
+    "booking": {
+      "title": "Book Directly",
+      "subtitle": "Check available dates and book your stay without intermediaries",
+      "cta": "Check Availability",
+      "widget": "Smoobu Widget - Insert embed code here"
+    }
+  },
+  "location": {
+    "hero": {
+      "title": "Our Location",
+      "subtitle": "In Borgo Roma, a quiet Verona neighborhood, 1 minute walk from the bus stop and excellent connections to the center"
+    },
+    "distances": {
+      "title": "Distances from Key Attractions",
+      "subtitle": "Hello Verona is strategically positioned to reach everything comfortably"
+    },
+    "howToReach": {
+      "title": "How to Reach Us",
+      "car": "By Car",
+      "train": "By Train",
+      "airport": "From the Airport",
+      "bus": "By Bus"
+    },
+    "map": {
+      "title": "Our Location",
+      "address": "Via Campagnol di Tombetta 65, 37134 Verona"
+    }
+  },
+  "guide": {
+    "hero": {
+      "title": "Verona Guide",
+      "subtitle": "Everything you need to know to make the most of Verona"
+    },
+    "sections": {
+      "seeTitle": "What to See in Verona",
+      "eatTitle": "Where to Eat in Verona",
+      "eventsTitle": "Events in Verona",
+      "kidsTitle": "Verona with Kids",
+      "tripsTitle": "Day Trips from Verona"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you want to know before booking"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We're here to help you plan your perfect stay in Verona"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "checkin": "Check-in Date",
+      "checkout": "Check-out Date",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message sent successfully!",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "Describe your ideal stay..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "address": "Address",
+      "hours": "Response Hours",
+      "hoursValue": "Every day 9:00 AM - 9:00 PM"
+    },
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "blog": {
+    "hero": {
+      "title": "Blog & Travel Journal",
+      "subtitle": "Tips, guides and inspiration for your stay in Verona"
+    },
+    "readMore": "Read more",
+    "backToBlog": "Back to Blog"
+  },
+  "footer": {
+    "description": "Your welcoming tourist apartment in the heart of Verona. Close to the Trade Fair, the Arena and the wonders of the city of Romeo and Juliet.",
+    "quickLinks": "Quick Links",
+    "bookDirect": "Book Direct",
+    "reviewsBooking": "Booking.com Reviews",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "rights": "© 2026 Hello Verona. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "whatsapp": "WhatsApp",
+    "viewOnMap": "View on Map",
+    "km": "km from center",
+    "minutes": "minutes"
+  }
+}
